@@ -1,0 +1,10 @@
+#container{
+    display: grid;
+}
+#game{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    aspect-ratio: 1/1;
+    gap:5px;
+    padding: 10px;
+}
